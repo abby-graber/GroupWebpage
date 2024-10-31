@@ -105,3 +105,10 @@ button {
 button:hover {
     background: #0056b3;
 }
+
+.team-photo {
+    width: 100px;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+    display: block;
+}
