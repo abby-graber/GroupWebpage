@@ -73,6 +73,7 @@ header nav button:hover {
 
 .takeshi-card {
     background: #c7fff5; /* Background color */
+    border: 2px solid #2d8579; /* Border color */
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     margin: 10px;
@@ -80,9 +81,28 @@ header nav button:hover {
     flex: 1 1 calc(30% - 40px);
     text-align: center;
     transition: transform 0.2s;
+    font-family: 'Oswald', sans-serif; /* Font styles */
+}
+
+.takeshi-card h2 {
+    font-family: 'Oswald', sans-serif; /* Apply font to headings */
+    font-size: 1.5em; /* Heading size */
+    font-weight: bold; /* Make heading bold */
+    margin-bottom: 10px; /* Space below heading */
+}
+
+.takeshi-card p, .takeshi-card a {
+    font-family: 'Oswald', sans-serif; /* Apply font to paragraph */
+    font-size: 1em; /* Paragraph font size */
+    line-height: 1.5; /* Adjust line height */
+    margin: 10px 0; /* Space around paragraph */
 }
 
 .card:hover {
+    transform: scale(1.05);
+}
+
+.takeshi-card:hover {
     transform: scale(1.05);
 }
 
