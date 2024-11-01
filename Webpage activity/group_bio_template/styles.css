@@ -71,6 +71,17 @@ header nav button:hover {
     transition: transform 0.2s;
 }
 
+.takeshi-card {
+    background: #c7fff5; /* Background color */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    flex: 1 1 calc(30% - 40px);
+    text-align: center;
+    transition: transform 0.2s;
+}
+
 .card:hover {
     transform: scale(1.05);
 }
@@ -90,6 +101,12 @@ h2 {
     display: none;
     margin-top: 10px;
     color: darkslategray;
+}
+
+.takeshi-bio {
+    display: none;
+    margin-top: 10px;
+    color: #2d8579; /* Text color */
 }
 
 /* Button styling */
