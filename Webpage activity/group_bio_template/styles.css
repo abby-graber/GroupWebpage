@@ -107,8 +107,8 @@ button:hover {
 }
 
 .team-photo {
-    width: 100px;
-    border-radius: 50%;
-    margin: 0 auto 10px;
-    display: block;
+    width: 100px; /* Set image width */
+    border-radius: 50%; /* Make image circular */
+    margin: 0 auto 10px; /* Center image, add bottom margin */
+    display: block; /* Enable centering with margin */
 }
