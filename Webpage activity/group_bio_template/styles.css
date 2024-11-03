@@ -60,6 +60,32 @@ header nav button:hover {
     transition: transform 0.2s;
 }
 
+.abby-card {
+    background: #ffcce6;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    flex: 1 1 calc(30% - 40px);
+    text-align: center;
+    transition: transform 0.2s;
+    font-family: 'Oswald', sans-serif; /* Font styles */
+}
+
+.abby-card h2 {
+    font-family: 'Oswald', sans-serif; /* Apply font to headings */
+    font-size: 1.5em; /* Heading size */
+    font-weight: bold; /* Make heading bold */
+    margin-bottom: 10px; /* Space below heading */
+}
+
+.abby-card p, .abby-card a {
+    font-family: 'Oswald', sans-serif; /* Apply font to paragraph */
+    font-size: 1em; /* Paragraph font size */
+    line-height: 1.5; /* Adjust line height */
+    margin: 10px 0; /* Space around paragraph */
+}
+
 .natecard {
     background: burlywood;
     border-radius: 8px;
@@ -112,6 +138,12 @@ h2 {
 
 /* Initially hide bio details */
 .bio {
+    display: none;
+    margin-top: 10px;
+    color: #555;
+}
+
+.abby-bio {
     display: none;
     margin-top: 10px;
     color: #555;
