@@ -109,6 +109,29 @@ header nav button:hover {
     transition: transform 0.2s;
     font-family: 'Oswald', sans-serif; /* Font styles */
 }
+
+.trevor.card {
+    background: #1464d4;
+    border: 2px solid black;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    flex: 1 1 calc(30% - 40px);
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.trevor.card h2 {
+    font-family: 'Arial Black', 'sans-serif';
+    font-size: 1.5em;
+}
+
+.trevor.card p .trevor.card a {
+    font-family: 'Arial Black', 'sans-serif';
+    font-size: 1em;
+}
+
 .caleb-card{
     background-color: #0073e6;
     color: white;
@@ -181,7 +204,11 @@ h2 {
     color: #2d8579; /* Text color */
 }
 
-
+.trevorbio {
+    display: none;
+    margin-top: 10px;
+    color: black;
+}
 
 
 /* Button styling */
@@ -221,4 +248,13 @@ button:hover {
     border-radius: 50%; /* Make image circular */
     margin: 0 auto 10px; /* Center image, add bottom margin */
     display: block; /* Enable centering with margin */
+}
+
+.trevor.team-photo {
+    width: 100px;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+    display: block;
+    border:2px solid black;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
